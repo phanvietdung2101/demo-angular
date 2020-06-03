@@ -6,6 +6,7 @@ import { FontSizeEditorComponent } from './font-size-editor/font-size-editor.com
 import { FormsModule } from '@angular/forms';
 import { PetComponent } from './pet/pet.component';
 import { AwesomeCalculatorComponent } from './awesome-calculator/awesome-calculator.component';
+import { ColorPickerComponent } from './color-picker/color-picker.component';
 
 
 @NgModule({
@@ -13,7 +14,8 @@ import { AwesomeCalculatorComponent } from './awesome-calculator/awesome-calcula
     AppComponent,
     FontSizeEditorComponent,
     PetComponent,
-    AwesomeCalculatorComponent
+    AwesomeCalculatorComponent,
+    ColorPickerComponent
   ],
   imports: [
     BrowserModule,
